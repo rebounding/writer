@@ -70,3 +70,6 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/rebounding/rebounding.github.com.git
+
+# Avatar
+avatar: /images/icon.png

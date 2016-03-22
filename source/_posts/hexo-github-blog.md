@@ -54,7 +54,7 @@ post_asset_folder: true
 使用方法参考官方文档即可。
 
 ## 支持评论
-基于 GitHub Page 的 blog 系统都是使用第三方评论插件，常用的有国内的多说、友言，国外的DISQUS。NexT 主题对第三方评论系统做了很好的支持，使用起来相当方便。默认支持多说和DISQUS，多说优先级更高。看一下 themes/next/layout/_partials/comments.swig 文件：
+基于 GitHub Page 的 blog 系统都是使用第三方评论插件，常用的有国内的多说、友言，国外的 DISQUS。NexT 主题对第三方评论系统做了很好的支持，使用起来相当方便。默认支持多说和DISQUS，多说优先级更高。看一下 themes/next/layout/_partials/comments.swig 文件：
 ``` javascript
 {% if page.comments %}
   <div class="comments" id="comments">
